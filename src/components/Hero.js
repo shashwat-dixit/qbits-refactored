@@ -7,7 +7,7 @@ const Hero = () => {
             <div className='content'>
                 
                 
-                <p className ="link__styl">Q-BITS  </p>
+                <p className ="link__styl">Q-BITS</p>
 
                 <p className ="link__styl">QUANTUM TECH CLUB</p>
                 <p className ="link__styl"><pre>LEARN  DESIGN  DEVELOP</pre></p>
