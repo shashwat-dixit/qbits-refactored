@@ -14,7 +14,7 @@ const About = () => {
                     <span className='line'></span>
                     <h4><p>The motive of the club is to bring about interest and awareness of the Quantum Computing Technology among the masses . Our shared interest is the curiosity to explore Quantum Computing applications and teach fellow members.</p>
                     </h4>
-                    <button className='button' onClick={() => navigate('/aboutPage')}>Explore More</button>
+                    {/*<button className='button' onClick={() => navigate('/aboutPage')}>Explore More</button>*/}
                 </div>
             </div>
         </div>

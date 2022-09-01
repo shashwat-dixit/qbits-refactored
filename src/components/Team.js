@@ -91,7 +91,7 @@ const Team = () => {
 
         <div className='cardTeam' >
           <div><img src={nihal} alt="events icon" /></div>
-          <h4>Nihal K.P</h4>
+          <h4>Nihal K.P.</h4>
           <h5>Blogs & Newsletters</h5>
           <a className="link__style1" href="mailto:kpnihal006@gmail.com">
             <img className="icon__style1" src={EmailIcon} alt="EmailIcon"/>
@@ -140,10 +140,10 @@ const Team = () => {
           <div className='backcard'></div>
 
           <div><img src={shashwat} alt="events icon" /></div>
-          <h4>Shashwat</h4>
-          <h5>Organizer</h5>
-          <a className="link__style1" href="mailto:shashwatmain@gmail.com">
-            <img className="icon__style1" src={EmailIcon} alt="EmailIcon"/>
+          <h4>Shashwat Dixit</h4>
+          <h5>Organizing Head</h5>
+          <a className="link__style1" href="https://www.linkedin.com/in/02shashwat/">
+            <img className="icon__style1" src={linkedInIcon} alt="linkedInIcon"/>
           </a>
         </div>
       </div>
@@ -155,9 +155,6 @@ const Team = () => {
           <div><img src={akruti} alt="events icon" /></div>
           <h4>Akruti Sarangi</h4>
           <h5>Website</h5>
-          <a className="link__style1" href="mailto:aviternal20@gmail.com">
-            <img className="icon__style1" src={EmailIcon} alt="EmailIcon"/>
-          </a>
           <a className="link__style1" href="https://www.linkedin.com/in/akruti-sarangi-04377b22a">
             <img className="icon__style1" src={linkedInIcon} alt="linkedInIcon"/>
           </a>
@@ -168,9 +165,6 @@ const Team = () => {
           <div><img src={vismaya} alt="events icon" /></div>
           <h4>Vismaya</h4>
           <h5>Newspaper & Magazine</h5>
-          <a className="link__style1" href="mailto:vismayad1234@gmail.com">
-            <img className="icon__style1" src={EmailIcon} alt="EmailIcon"/>
-          </a>
           <a className="link__style1" href="https://www.linkedin.com/in/vismaya-devashya-a538a9246">
             <img className="icon__style1" src={linkedInIcon} alt="linkedInIcon"/>
           </a>
