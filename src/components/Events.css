@@ -1,0 +1,111 @@
+.events {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.events .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.events h2 {
+    font-size: 3rem;
+}
+
+.events .col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.events .col-1 p {
+    margin: 0.5rem 0;
+}
+
+
+
+/* .events button {
+    margin-top: 1rem;
+} */
+
+@media screen and (max-width:940px) {
+    .events .container {
+        grid-template-columns: 1fr;
+    }
+
+    .events .container {
+        width: 100%;
+    }
+
+    .events .container img {
+        padding: 0rem;
+        /* width: 90vw; */
+    }
+
+    .events .container .col-2 {
+        padding: 0;
+    }
+
+    .events button {
+        margin-bottom: 1rem;
+    }
+  
+}
+
+.image {
+    width: 640px;
+    height: 500px;
+}
+
+.cardsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25rem;
+}
+
+.card {
+    width: 10rem;
+    height: 10rem;
+    margin: 20px;
+    border: ridge 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255), rgba(250, 247, 87, 0.842), rgba(235, 252, 5, 0));
+
+}
+
+.card:hover {
+    background-color: red;
+    color: white;
+    opacity: 0.5;
+}
+
+.card img {
+    width: 10rem;
+    height: 7rem;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 940px){
+    
+}
+
+
+
+
+
+
+
+
