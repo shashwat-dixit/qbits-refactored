@@ -1,10 +1,13 @@
 import React from 'react'
 import john from './landing_page/about.png'
 import './About.css'
+/*
 import { useNavigate } from 'react-router-dom'
-
+*/
 const About = () => {
+    /*
     const navigate = useNavigate();
+    */
     return (
         <div className='about' id='about'>
             <div className='container'>

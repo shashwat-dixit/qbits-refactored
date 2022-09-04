@@ -2,7 +2,7 @@ import React from "react";
 import linkedInIcon from "./landing_page/linkedin (1).png";
 import InstaIcon from "./landing_page/instagram (3).png";
 import EmailIcon from "./landing_page/email (1).png";
-
+/*import discord from "./landing_page/discord2.jpg";*/
 import "./Contact.css";
 const Contact = () => {
   return (
@@ -20,9 +20,11 @@ const Contact = () => {
         <a className="link__style" href="mailto:quantumtechclub.nmit@gmail.com">
           <img className="icon__style" src={EmailIcon} alt="icon" />
         </a>
-        <a className="link__style" href="https://discord.gg/G6r9vnYxqd">
-          <img className="icon__style" src={EmailIcon} alt="icon" />
+        {/*
+        <a className="link__style discord" href="https://discord.gg/G6r9vnYxqd">
+          <img className="icon__style" src={discord} alt="icon" />
         </a>
+        */}
       </div>
     
       <div className="text_spacing">
